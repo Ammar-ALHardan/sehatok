@@ -1,0 +1,148 @@
+.footer{
+    border-top: 1px solid grey;
+    margin-top: 10px;
+  @media ($max_mobile) {
+
+  }
+    .container{
+        .row {
+            .list-footer{
+               
+                .title{
+                    float: right;
+                    margin-top: 20px;
+                    color: $card_title;
+                    @media ($max_mobile) {
+                        text-align: center;
+                        margin-right: 120px;
+                }
+                }
+                .subscribe{
+                    button{
+                        background-color: $card_title;
+                        border: none;
+                        margin-top: 10px;
+                        color: white;
+                        height: 40px;
+                        width: 75px;
+                        border-radius: 7px;
+                    }
+                    input{
+                        float: right;
+                        width: 270px;
+                        height: 40px;
+                        margin-top: 10px;
+                        text-align: right;
+                        font-size: 14px;
+                        border-radius: 7px;
+                        border-color: $footer_text;
+                    }
+                }
+                .icon{
+                    
+                    ul{
+                        margin-top: 15px;
+                        list-style: none;
+                        display: flex;
+                        justify-content: right;
+                        @media ($max_mobile) {
+                            justify-content: center;
+                        }
+                        li{
+                            color:$icon_color;
+                            background-color: $background_icon;
+                            border-radius: 50px;
+                            width: 36px;
+                            height: 36px;
+                            margin-left: 8px;
+                            text-align: center;
+                            padding-top: 5px;
+                        }
+                    }
+                }
+            }
+            .links{
+                .title{
+                    float: right;
+                    margin-top: 20px;
+                    color: $card_title;
+                }
+                ul{
+                    font-size: 12px;
+                    padding-top: 10px;
+                    padding-right: 0px;
+                    float: right;
+                    list-style: none;
+                    direction: rtl;
+                    display: block;
+                    li{
+                        padding-bottom:5px ;
+
+                        i{
+                            color: $background_icon;
+                        }
+                    }
+                }
+            }
+            .partner{
+                .title{
+                    margin-top: 20px;
+                    float: right;
+                    color: $card_title;
+                }
+                ul{
+                    list-style: none;
+                    li{
+                        img{
+                           margin-top:10px ; 
+                        }
+                        
+                    }
+                }
+            }
+            .img{
+                @media ($max_mobile) {
+              
+                    
+                }
+                img{
+                float: right;
+                width: 210px;
+                height: 48px;
+                margin-top: 30px;
+               
+            }
+            p{
+                margin-top: 20px;
+                float: right;
+                font-size: 10px;
+                color: $footer_text;
+            }
+        }
+      } 
+    }
+    .footer-copy{
+        width: 100%;
+        background-color: $background_header;
+        margin-left: 0px;
+        .container{
+            
+            .right{
+                float: right;
+                font-size: 10px;
+                color: $footer_text;
+                i{
+                    margin-top: 10px;
+                }
+            }
+            .left{
+               
+                color: $footer_text;
+                img{
+                    padding: 7px;
+                    height: 35px;
+                }
+            }
+        }
+    }
+}
